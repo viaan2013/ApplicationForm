@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="32" started="26" failures="0" errors="4" ignored="0">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" incomplete="true">
+    <testsuite name="Feature: Course available online" incomplete="true">
+      <testsuite name="Scenario Outline: True To False" time="113.825">
+        <testsuite name="Examples:" time="113.825">
+          <testsuite name="| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text()='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="49.857" incomplete="true">
+            <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='00N30000006G28a][@checked='checked'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='00N30000006G28a][@checked='checked']' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 089bd0106a64d6fa7abae3a1b4cac56f
+*** Element info: {Using=xpath, value=//input[@id='00N30000006G28a][@checked='checked']}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForUntickedAvailableOption(CourseAvailableOnlinePage.java:99)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_available_online_option_unticked(CourseAvalableOnlineStepDef.java:108)&#13;
+	at ✽.Then I should see available online option unticked(CourseAvailableOnline.feature:16)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in Contentful home page(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="5.77"/>
+            <testcase name="And I select Outcome in the dropdown(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="1.407"/>
+            <testcase name="And I select scheduledcourse in the outcome(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="2.231"/>
+            <testcase name="And I enter &quot;International Year One in Business&quot; in search area(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="0.052"/>
+            <testcase name="And I click on search button(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="2.191"/>
+            <testcase name="And I select &quot;aCI3A000000Caf5WAC&quot;in search results(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="10.14"/>
+            <testcase name="And I click on that selected &quot;//div[@class='ReferenceCard__title'][text()='International Year One in Business - January Start - 3 Terms - NCL - 2018/19']&quot;from search results(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="5.818"/>
+            <testcase name="When I am navigating to salesforce(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="2.925"/>
+            <testcase name="And I am searching for scheduled course with &quot;01t3A000007GaTpQAK&quot;(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="0.056"/>
+            <testcase name="And I scroll the page to see Available online option(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="10.383"/>
+            <testcase name="And I am double click on Available online option(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="5.182"/>
+            <testcase name="And I click on save button(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="3.701"/>
+            <testcase name="Then I should see available online option unticked(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="0.0">
+              <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='00N30000006G28a][@checked='checked'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='00N30000006G28a][@checked='checked']' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 089bd0106a64d6fa7abae3a1b4cac56f
+*** Element info: {Using=xpath, value=//input[@id='00N30000006G28a][@checked='checked']}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForUntickedAvailableOption(CourseAvailableOnlinePage.java:99)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_available_online_option_unticked(CourseAvalableOnlineStepDef.java:108)&#13;
+	at ✽.Then I should see available online option unticked(CourseAvailableOnline.feature:16)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text()='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="47.69" incomplete="true">
+            <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='00N30000006G28a][@checked='checked'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='00N30000006G28a][@checked='checked']' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: db9c958b2ba96800550f1ba4de27dfd6
+*** Element info: {Using=xpath, value=//input[@id='00N30000006G28a][@checked='checked']}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForUntickedAvailableOption(CourseAvailableOnlinePage.java:99)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_available_online_option_unticked(CourseAvalableOnlineStepDef.java:108)&#13;
+	at ✽.Then I should see available online option unticked(CourseAvailableOnline.feature:16)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in Contentful home page(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="5.248"/>
+            <testcase name="And I select Outcome in the dropdown(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="1.334"/>
+            <testcase name="And I select scheduledcourse in the outcome(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="1.973"/>
+            <testcase name="And I enter &quot;International Year One in Business&quot; in search area(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="0.042"/>
+            <testcase name="And I click on search button(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="2.02"/>
+            <testcase name="And I select &quot;aCI3A000000CafBWAS&quot;in search results(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="9.638"/>
+            <testcase name="And I click on that selected &quot;//div[@class='ReferenceCard__title'][text()='International Year One in Business - September Start - 3 Terms - NUL - 2018/19']&quot;from search results(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="5.42"/>
+            <testcase name="When I am navigating to salesforce(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="2.912"/>
+            <testcase name="And I am searching for scheduled course with &quot;01t3A000007GaxsQAC&quot;(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="0.002"/>
+            <testcase name="And I scroll the page to see Available online option(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="10.267"/>
+            <testcase name="And I am double click on Available online option(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="5.15"/>
+            <testcase name="And I click on save button(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="3.684"/>
+            <testcase name="Then I should see available online option unticked(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="0.0">
+              <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //input[@id='00N30000006G28a][@checked='checked'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@id='00N30000006G28a][@checked='checked']' is not a valid XPath expression.
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: db9c958b2ba96800550f1ba4de27dfd6
+*** Element info: {Using=xpath, value=//input[@id='00N30000006G28a][@checked='checked']}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)&#13;
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForUntickedAvailableOption(CourseAvailableOnlinePage.java:99)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_available_online_option_unticked(CourseAvalableOnlineStepDef.java:108)&#13;
+	at ✽.Then I should see available online option unticked(CourseAvailableOnline.feature:16)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario Outline: : False To True" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| 01t3A000007TDKWQA4 |" incomplete="true">
+            <testcase name="Given I am navigating to salesforce homepage" classname="| 01t3A000007TDKWQA4 |" incomplete="true"/>
+            <testcase name="And I am searching for scheduled course with &quot;01t3A000007TDKWQA4&quot; which are having unticked available online option" classname="| 01t3A000007TDKWQA4 |" incomplete="true"/>
+            <testcase name="And I scroll the page to see Available online option" classname="| 01t3A000007TDKWQA4 |" incomplete="true"/>
+            <testcase name="And I am double click on Available online option" classname="| 01t3A000007TDKWQA4 |" incomplete="true"/>
+            <testcase name="And I click on save button" classname="| 01t3A000007TDKWQA4 |" incomplete="true"/>
+            <testcase name="Then I should see Available online option ticked" classname="| 01t3A000007TDKWQA4 |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

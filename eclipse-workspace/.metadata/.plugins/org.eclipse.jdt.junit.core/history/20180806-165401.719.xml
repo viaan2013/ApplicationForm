@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="32" started="32" failures="0" errors="4" ignored="0">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" time="527.152">
+    <testsuite name="Feature: Course available online" time="527.152">
+      <testsuite name="Scenario Outline: True To False" time="279.031">
+        <testsuite name="Examples:" time="279.031">
+          <testsuite name="| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text()='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="177.421" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForUntickedAvailableOption(CourseAvailableOnlinePage.java:99)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_available_online_option_unticked(CourseAvalableOnlineStepDef.java:108)&#13;
+	at ✽.Then I should see available online option unticked(CourseAvailableOnline.feature:16)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in Contentful home page(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="5.886"/>
+            <testcase name="And I select Outcome in the dropdown(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="1.358"/>
+            <testcase name="And I select scheduledcourse in the outcome(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="1.888"/>
+            <testcase name="And I enter &quot;International Year One in Business&quot; in search area(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="0.051"/>
+            <testcase name="And I click on search button(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="1.889"/>
+            <testcase name="And I select &quot;aCI3A000000Caf5WAC&quot;in search results(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="11.586"/>
+            <testcase name="And I click on that selected &quot;//div[@class='ReferenceCard__title'][text()='International Year One in Business - January Start - 3 Terms - NCL - 2018/19']&quot;from search results(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="5.59"/>
+            <testcase name="When I am navigating to salesforce(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="3.538"/>
+            <testcase name="And I am searching for scheduled course with &quot;01t3A000007GaTpQAK&quot;(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="0.099"/>
+            <testcase name="And I scroll the page to see Available online option(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="10.43"/>
+            <testcase name="And I am double click on Available online option(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="5.15"/>
+            <testcase name="And I click on save button(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="129.943"/>
+            <testcase name="Then I should see available online option unticked(| International Year One in Business | aCI3A000000Caf5WAC | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - January Start - 3 Terms - NCL - 2018/19'] | 01t3A000007GaTpQAK |" time="0.013">
+              <error>java.lang.NullPointerException&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForUntickedAvailableOption(CourseAvailableOnlinePage.java:99)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_available_online_option_unticked(CourseAvalableOnlineStepDef.java:108)&#13;
+	at ✽.Then I should see available online option unticked(CourseAvailableOnline.feature:16)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text()='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="85.907">
+            <testcase name="Given I am in Contentful home page(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="5.245"/>
+            <testcase name="And I select Outcome in the dropdown(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="1.288"/>
+            <testcase name="And I select scheduledcourse in the outcome(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="1.878"/>
+            <testcase name="And I enter &quot;International Year One in Business&quot; in search area(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="0.041"/>
+            <testcase name="And I click on search button(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="2.032"/>
+            <testcase name="And I select &quot;aCI3A000000CafBWAS&quot;in search results(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="10.042"/>
+            <testcase name="And I click on that selected &quot;//div[@class='ReferenceCard__title'][text()='International Year One in Business - September Start - 3 Terms - NUL - 2018/19']&quot;from search results(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="5.573"/>
+            <testcase name="When I am navigating to salesforce(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="2.769"/>
+            <testcase name="And I am searching for scheduled course with &quot;01t3A000007GaxsQAC&quot;(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="0.002"/>
+            <testcase name="And I scroll the page to see Available online option(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="10.261"/>
+            <testcase name="And I am double click on Available online option(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="5.168"/>
+            <testcase name="And I click on save button(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="40.124"/>
+            <testcase name="Then I should see available online option unticked(| International Year One in Business | aCI3A000000CafBWAS | //div[@class='ReferenceCard__title'][text" classname=")='International Year One in Business - September Start - 3 Terms - NUL - 2018/19'] | 01t3A000007GaxsQAC |" time="1.484"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario Outline: : False To True" time="233.793">
+        <testsuite name="Examples:" time="233.793">
+          <testsuite name="| 01t3A000007TDKWQA4 |" time="233.793" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForTickedAvailableOption(CourseAvailableOnlinePage.java:113)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_Available_online_option_ticked(CourseAvalableOnlineStepDef.java:125)&#13;
+	at ✽.Then I should see Available online option ticked(CourseAvailableOnline.feature:29)&#13;
+&#13;
+</error>
+            <testcase name="Given I am navigating to salesforce homepage" classname="| 01t3A000007TDKWQA4 |" time="3.324"/>
+            <testcase name="And I am searching for scheduled course with &quot;01t3A000007TDKWQA4&quot; which are having unticked available online option" classname="| 01t3A000007TDKWQA4 |" time="0.001"/>
+            <testcase name="And I scroll the page to see Available online option" classname="| 01t3A000007TDKWQA4 |" time="10.342"/>
+            <testcase name="And I am double click on Available online option" classname="| 01t3A000007TDKWQA4 |" time="5.3"/>
+            <testcase name="And I click on save button" classname="| 01t3A000007TDKWQA4 |" time="214.825"/>
+            <testcase name="Then I should see Available online option ticked" classname="| 01t3A000007TDKWQA4 |" time="0.001">
+              <error>java.lang.NullPointerException&#13;
+	at com.pages.CourseAvailableOnlinePage.assertionForTickedAvailableOption(CourseAvailableOnlinePage.java:113)&#13;
+	at com.StepDefination.CourseAvalableOnlineStepDef.i_should_see_Available_online_option_ticked(CourseAvalableOnlineStepDef.java:125)&#13;
+	at ✽.Then I should see Available online option ticked(CourseAvailableOnline.feature:29)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

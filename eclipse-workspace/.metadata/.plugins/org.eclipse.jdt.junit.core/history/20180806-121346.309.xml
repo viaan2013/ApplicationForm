@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="48" started="48" failures="6" errors="0" ignored="42">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" time="14.854">
+    <testsuite name="Feature: New Outcome Creation In Sales force" time="14.854">
+      <testsuite name="Scenario Outline:" time="14.854">
+        <testsuite name="Examples:" time="14.854">
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London (Parent) |" time="0.0" incomplete="true">
+            <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:16)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</failure>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0">
+              <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:16)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</failure>
+            </testcase>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I select &quot;INTO City, University of London&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.004" ignored="true"/>
+            <testcase name="And I enter &quot;outcome1-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.003" ignored="true"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.002" ignored="true"/>
+            <testcase name="And I enter the &quot;Academic English&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.002" ignored="true"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I select &quot;INTO City University, London (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="1.088" ignored="true"/>
+          </testsuite>
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester (Parent) |" time="0.01" incomplete="true">
+            <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:16)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</failure>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.01"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0">
+              <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:16)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</failure>
+            </testcase>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.004" ignored="true"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I select &quot;INTO Manchester&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.003" ignored="true"/>
+            <testcase name="And I enter &quot;outcome2-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.002" ignored="true"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I enter the &quot;Business&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.003" ignored="true"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.009" ignored="true"/>
+            <testcase name="And I select &quot;INTO Manchester (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.91" ignored="true"/>
+          </testsuite>
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling (Parent) |" time="0.012" incomplete="true">
+            <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:16)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</failure>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.011"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0">
+              <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:86)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:41)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:52)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:16)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</failure>
+            </testcase>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I select &quot;INTO University of Stirling&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I enter &quot;outcome3-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I enter the &quot;social&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I select &quot;INTO University of Stirling (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.967" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

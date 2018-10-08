@@ -1,0 +1,24 @@
+package com.Utilities;
+
+import org.openqa.selenium.WebDriver;
+
+import com.pages.CourseAvailableOnlinePage;
+import com.pages.EntryRequirementsAddingPage;
+import com.pages.EntryRequirementsRemovingpage;
+import com.pages.NewOutcomeCreationPage;
+import com.pages.ProductProgressionPage;
+
+public class PageObjectRepo {
+	
+	public static WebDriver driver;
+	
+	CourseAvailableOnlinePage courseAvailableOnline =new CourseAvailableOnlinePage();
+	EntryRequirementsAddingPage entryRequirementsAdding=new EntryRequirementsAddingPage();
+	EntryRequirementsRemovingpage entryRequirementsRemoving=new EntryRequirementsRemovingpage();
+	NewOutcomeCreationPage newOutcomeCreationPage=new NewOutcomeCreationPage();
+    ProductProgressionPage productProgressionPage=new  ProductProgressionPage();
+	GlobalHooks globalHooks=new GlobalHooks();
+
+	}
+
+

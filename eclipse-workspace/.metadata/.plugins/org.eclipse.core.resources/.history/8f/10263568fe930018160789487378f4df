@@ -1,0 +1,223 @@
+package com.StepDefination;
+
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
+
+import com.Utilities.PageObjectRepo;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class ProductProgressionStepDef extends PageObjectRepo{
+
+	WebDriver driver;
+
+	@Given("^I am in contentful home page$")
+	public void i_am_in_contentful_home_page() throws Throwable {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C://Users//Sruthi.Kundoor//Desktop//Automation//chromedriver_win32//chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://app.contentful.com/spaces/xw2h6mjophtz/environments/test-course-content/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10000, TimeUnit.SECONDS);
+
+	}
+
+	@When("^I enter Email as \"([^\"]*)\" and Password as \"([^\"]*)\" in the home page$")
+	public void i_enter_Email_as_and_Password_as_in_the_home_page(String Email, String Password) throws Throwable {
+
+		driver.findElement(By.id("user_email")).click();
+		driver.findElement(By.id("user_email")).sendKeys(Email);
+		driver.findElement(By.id("user_password")).click();
+		driver.findElement(By.id("user_password")).sendKeys(Password);
+
+	}
+
+	@When("^I click on login to contentful test site$")
+	public void i_click_on_login_to_contentful_test_site() throws Throwable {
+
+		driver.findElement(By.name("commit")).click();
+		Thread.sleep(5000);
+
+	}
+
+	@When("^I select Outcome option in the dropdown$")
+	public void i_select_Outcome_option_in_the_dropdown() throws Throwable {
+
+		WebElement outcome = driver.findElement(By.xpath("//div[@class='search__select-value']//select"));
+		Select select = new Select(outcome);
+		select.selectByVisibleText("Outcome");
+		Thread.sleep(3000);
+
+	}
+
+	@When("^I select scheduledcourse in the outcome option$")
+	public void i_select_scheduledcourse_in_the_outcome_option() throws Throwable {
+
+		driver.findElement(By.cssSelector(".input-reset.search-next__query-input")).click();
+		driver.findElement(By.cssSelector(".input-reset.search-next__query-input")).sendKeys("scheduledcourse");
+		driver.findElement(By.cssSelector(".__filter-pill")).click();
+
+	}
+
+	@When("^I enter \"([^\"]*)\" in outcome search area$")
+	public void i_enter_in_outcome_search_area(String courseTitle) throws Throwable {
+
+		driver.findElement(By.xpath("//input[@class='input-reset search-next__query-input']")).sendKeys(courseTitle);
+		driver.findElement(By.xpath("//input[@class='input-reset search-next__query-input']")).sendKeys(Keys.ENTER);
+		Thread.sleep(2000);
+
+	}
+
+	@When("^I select \"([^\"]*)\" from search results$")
+	public void i_select_from_search_results(String Course) throws Throwable {
+
+		driver.findElement(By
+				.cssSelector("a[href='/spaces/xw2h6mjophtz/environments/test-course-content/entries/"+Course+"']"))
+				.click();
+		Thread.sleep(4000);
+
+	}
+
+	@When("^I select \"([^\"]*)\" from list$")
+	public void i_select_from_list(String scheduledCourse) throws Throwable {
+
+		driver.findElement(By.xpath("" + scheduledCourse + "")).click();
+		Thread.sleep(1000);
+		String actual = driver.findElement(By.xpath("" + scheduledCourse + "")).getText();
+
+		System.out.println("actualcourse = " + actual);
+
+	}
+
+	@When("^I print URL with outcomeID and salesforceID$")
+	public void i_print_URL_with_outcomeID_and_salesforceID() throws Throwable {
+
+		System.out.println("scheduledcourse with outcome ID and salesforceID = " + driver.getCurrentUrl());
+
+	}
+
+	@When("^I click on \"([^\"]*)\" related to that scheduledcourse$")
+	public void i_click_on_related_to_that_scheduledcourse(String productProgression) throws Throwable {
+
+		driver.findElement(By.xpath("" + productProgression + "")).click();
+		Thread.sleep(2000);
+		String actual = driver.findElement(By.xpath("" + productProgression + "")).getText();
+		System.out.println("productprogression =" + actual);
+		Thread.sleep(6000);
+	}
+
+	@When("^I print the URL$")
+	public void i_print_the_URL() throws Throwable {
+
+		String productprogression = driver.getCurrentUrl();
+		System.out.println("productprogressionURL = " + productprogression);
+
+	}
+
+	@Then("^I navigate to salesforce$")
+	public void i_navigate_to_salesforce() throws Throwable {
+
+		driver.navigate().to("https://intoglobal--iupsfuat.cs109.my.salesforce.com");
+
+	}
+
+	@Then("^I enter userName as \"([^\"]*)\" and passWord as \"([^\"]*)\"$")
+	public void i_enter_userName_as_and_passWord_as(String userName, String passWord) throws Throwable {
+
+		driver.findElement(By.id("username")).click();
+		driver.findElement(By.id("username")).sendKeys(userName);
+		driver.findElement(By.id("password")).click();
+		driver.findElement(By.id("password")).sendKeys(passWord);
+
+	}
+
+	@Then("^I click on Login button in salesforce home page$")
+	public void i_click_on_Login_button_in_salesforce_home_page() throws Throwable {
+
+		driver.findElement(By.id("Login")).click();
+		Thread.sleep(2000);
+
+	}
+
+	@Then("^I search for \"([^\"]*)\" in the salesforce url$")
+	public void i_search_for_in_the_salesforce_url(String scheduledcourse) throws Throwable {
+
+		driver.navigate().to("https://intoglobal--iupsfuat.cs109.my.salesforce.com/" + scheduledcourse + " ");
+		String actualcourseinsalesforce = driver.findElement(By.id("lookup01t3A000006S8AN00N3A00000CITIi")).getText();
+		System.out.println("actualcourseinsalesforce =" + actualcourseinsalesforce);
+
+	}
+
+	@Then("^I click on productprogression inactive option$")
+	public void i_click_on_productprogression_inactive_option() throws Throwable {
+
+		Actions action = new Actions(driver);
+		action.moveToElement(driver.findElement(By.id("00N3A00000CITIf_chkbox"))).doubleClick().build().perform();
+		Thread.sleep(3000);
+		driver.findElement(By.id("00N3A00000CITIf")).click();
+		Thread.sleep(2000);
+	}
+
+	@Then("^I click on Save button in salesforce$")
+	public void i_click_on_Save_button_in_salesforce() throws Throwable {
+
+		driver.findElement(By.cssSelector("#bottomButtonRow > input[name=\"inlineEditSave\"]")).click();
+		Thread.sleep(9000);
+		String EndUrl = driver.getCurrentUrl();
+		System.out.println("EndUrl =" + EndUrl);
+
+	}
+
+	@Given("^I navigate to salesforce homepage$")
+	public void i_navigate_to_salesforce_homepage() throws Throwable {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C://Users//Sruthi.Kundoor//Desktop//Automation//chromedriver_win32//chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.navigate().to("https://intoglobal--iupsfuat.cs109.my.salesforce.com");
+		driver.findElement(By.id("username")).click();
+		driver.findElement(By.id("username")).sendKeys("sruthi.kundoor@intoglobal.com.iupsfuat");
+		driver.findElement(By.id("password")).click();
+		driver.findElement(By.id("password")).sendKeys("Into1234");
+		driver.findElement(By.id("Login")).click();
+		Thread.sleep(3000);
+	}
+
+	@When("^I am searching for \"([^\"]*)\" which are having unticked Productprogression inactive option$")
+	public void i_am_searching_for_which_are_having_unticked_Productprogression_inactive_option(
+			String progressiondegree) throws Throwable {
+
+		driver.navigate().to("https://intoglobal--iupsfuat.cs109.my.salesforce.com/" + progressiondegree + "");
+	}
+
+	@Then("^I should see product progression inactive option ticked$")
+	public void i_should_see_product_progression_inactive_option_ticked() throws Throwable {
+
+		try {
+			boolean checkbox = driver.findElement(By.xpath("//img[@id='00N3A00000CITIf_chkbox'][@title='Checked']"))
+					.isDisplayed();
+			checkbox = true;
+			System.out.println(checkbox + " Checkbox is ticked");
+
+		} catch (Exception e) {
+
+			System.out.println("Print an error" + e);
+		}
+
+	}
+
+}
+
+
+	
+
+

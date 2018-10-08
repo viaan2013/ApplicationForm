@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="14" started="14" failures="0" errors="2" ignored="4">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" time="32.529">
+    <testsuite name="Feature: Product Progression" time="32.529">
+      <testsuite name="Scenario Outline: Product progression option true to false" time="32.529">
+        <testsuite name="Examples:" time="32.529">
+          <testsuite name="| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc (Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="32.495" incomplete="true">
+            <error>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)&#13;
+	at com.Utilities.GlobalHooks.salesforceHomepage(GlobalHooks.java:36)&#13;
+	at com.StepDefination.ProductProgressionStepDef.i_navigate_to_salesforce(ProductProgressionStepDef.java:74)&#13;
+	at ✽.Then I navigate to salesforce(ProductProgression.feature:13)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in contentful home page(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="6.676"/>
+            <testcase name="And I select Outcome option in the dropdown(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="1.327"/>
+            <testcase name="And I select scheduledcourse in the outcome option(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="2.695"/>
+            <testcase name="When I enter &quot;science&quot; in outcome search area(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="4.393"/>
+            <testcase name="And I select &quot;aCI3A000000Caf0WAC&quot; from search results(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="2.849"/>
+            <testcase name="And I select &quot;//div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19']&quot; from list(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.01"/>
+            <testcase name="And I print URL with outcomeID and salesforceID(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="12.855"/>
+            <testcase name="And I click on &quot;//div[@class='ReferenceCard__title'][text()='BSc (Hons) Psychology and Biology']&quot; related to that scheduledcourse(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="1.657"/>
+            <testcase name="And I print the URL(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.017"/>
+            <testcase name="Then I navigate to salesforce(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.016">
+              <error>org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: driver.version: RemoteWebDriver&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:131)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:324)&#13;
+	at com.Utilities.GlobalHooks.salesforceHomepage(GlobalHooks.java:36)&#13;
+	at com.StepDefination.ProductProgressionStepDef.i_navigate_to_salesforce(ProductProgressionStepDef.java:74)&#13;
+	at ✽.Then I navigate to salesforce(ProductProgression.feature:13)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="And I search for &quot;aCD3A0000008lnbWAA&quot; in the salesforce url(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.0" ignored="true"/>
+            <testcase name="And I click on productprogression inactive option(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Save button in salesforce(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.0" ignored="true"/>
+            <testcase name="Then I should see product progression option is unticked(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.017" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

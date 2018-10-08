@@ -1,0 +1,131 @@
+package com.StepDefination;
+
+
+import java.io.IOException;
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+import com.Utilities.PageObjectRepo;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class EntryRequirementsAddingStepDef extends PageObjectRepo{
+
+	@Given("^I am in Salesforce Login page$")
+	public void i_am_in_Salesforce_Login_page() throws Throwable {
+
+		
+	
+     }
+
+	@When("^I select Entry requiremnts option in salesforce$")
+	public void i_select_Entry_requiremnts_option_in_salesforce() throws Throwable {
+
+		
+
+	}
+
+	@When("^I click on New button$")
+	public void i_click_on_New_button() throws Throwable {
+
+		
+
+	}
+
+	@When("^I enter deails in \"([^\"]*)\"$")
+	public void i_enter_deails_in(String EntryRequirementName) throws Throwable {
+
+		driver.findElement(By.name("Name")).click();
+		driver.findElement(By.name("Name")).sendKeys(EntryRequirementName);
+
+	}
+
+	@When("^I select \"([^\"]*)\"$")
+	public void i_select(String QualificationType) throws Throwable {
+
+		WebElement dropdown = driver.findElement(By.name("00N3A00000CIUWt"));
+		Select options = new Select(dropdown);
+		options.selectByVisibleText(QualificationType);
+
+	}
+
+	@When("^I enter details in \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\", \"([^\"]*)\",\"([^\"]*)\",\"([^\"]*)\"and \"([^\"]*)\"$")
+	public void i_enter_details_in_and(String QualificationCountry, String Qualification, String Requirement,
+			String Writing, String Reading, String Speaking, String Listening, String Notes, String Internal_code)
+			throws Throwable {
+
+		// Qualification country dropdown
+		WebElement country = driver.findElement(By.name("00N3A00000CIUWs"));
+		Select countryselection = new Select(country);
+		countryselection.selectByVisibleText(QualificationCountry);
+
+		// Qualification
+		driver.findElement(By.name("00N3A00000CIUWu")).click();
+		driver.findElement(By.name("00N3A00000CIUWu")).sendKeys(Qualification);
+
+		// Requirement
+		driver.findElement(By.name("00N3A00000CIUWw")).click();
+		driver.findElement(By.name("00N3A00000CIUWw")).sendKeys(Requirement);
+
+		// Writing
+		driver.findElement(By.name("00N3A00000CIUWy")).click();
+		driver.findElement(By.name("00N3A00000CIUWy")).sendKeys(Writing);
+
+		// Reading
+		driver.findElement(By.name("00N3A00000CIUWv")).click();
+		driver.findElement(By.name("00N3A00000CIUWv")).sendKeys(Reading);
+
+		// Speaking
+		driver.findElement(By.name("00N3A00000CIUWx")).click();
+		driver.findElement(By.name("00N3A00000CIUWx")).sendKeys(Speaking);
+
+		// Listening
+		driver.findElement(By.name("00N3A00000CIUWq")).click();
+		driver.findElement(By.name("00N3A00000CIUWq")).sendKeys(Listening);
+
+		// Notes
+		driver.findElement(By.name("00N3A00000CIUWr")).click();
+		driver.findElement(By.name("00N3A00000CIUWr")).sendKeys(Notes);
+
+		// Internal_code
+		driver.findElement(By.name("00N3A00000CIUWp")).click();
+		driver.findElement(By.name("00N3A00000CIUWp")).sendKeys(Internal_code);
+
+	}
+
+	@When("^I click on Save button at the bottom row$")
+	public void i_click_on_Save_button_at_the_bottom_row() throws Throwable {
+		driver.findElement(By.cssSelector("#bottomButtonRow > input[name='save']")).click();
+
+	}
+
+	@When("^I clik on New Product Entry$")
+	public void i_clik_on_New_Product_Entry() throws Throwable {
+
+		driver.findElement(By.name("new00N3A00000CIUWz")).click();
+
+	}
+
+	@When("^I select \"([^\"]*)\" in Product text box$")
+	public void i_select_in_Product_text_box(String scheduledcourse) throws Throwable {
+
+		driver.findElement(By.name("CF00N3A00000CIUX0")).click();
+		driver.findElement(By.name("CF00N3A00000CIUX0")).sendKeys(scheduledcourse);
+
+	}
+
+	@Then("^I take screenshot for future use$")
+	public void i_take_screenshot_for_future_use() throws IOException, InterruptedException {
+
+		
+		driver.close();
+
+	}
+
+	
+}
+
+

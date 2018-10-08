@@ -1,0 +1,9 @@
+package com.pages;
+
+import com.Utilities.PageObjectRepo;
+
+public class EntryRequirementsAddingPage extends PageObjectRepo{
+	
+	
+
+}

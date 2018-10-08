@@ -1,0 +1,19 @@
+package com.pages;
+
+import com.Utilities.PageObjectRepo;
+
+public class CourseAvailableOnlinePage extends PageObjectRepo{
+	
+	
+	public void contentfulHomepage() {
+		
+		globalHooks.startUp();
+	}
+	
+	public void enterEmailAndPassword() {
+		
+		getCourseAvailableOnline().enterEmailAndPassword();
+		
+	}
+
+}

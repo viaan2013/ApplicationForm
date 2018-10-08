@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="51" started="51" failures="0" errors="6" ignored="31">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" time="91.648">
+    <testsuite name="Feature: New Outcome Creation In Sales force" time="91.648">
+      <testsuite name="Scenario Outline:" time="91.648">
+        <testsuite name="Examples:" time="91.648">
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London (Parent) |" time="68.631" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.pages.NewOutcomeCreationPage.clickOnSaveBrandOutcomeButton(NewOutcomeCreationPage.java:97)&#13;
+	at com.pages.NewOutcomeCreationPage.assertion(NewOutcomeCreationPage.java:130)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_right_information(NewOutcomeCreationStepDef.java:145)&#13;
+	at ✽.And I should see right information(NewOutcomeCreation.feature:20)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="1.815"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="3.531"/>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="1.093"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.502"/>
+            <testcase name="And I select &quot;INTO City, University of London&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.138"/>
+            <testcase name="And I enter &quot;outcome1-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="2.84"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.105"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="2.204"/>
+            <testcase name="And I enter the &quot;Academic English&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.104"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="2.348"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="2.138"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.935"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.272"/>
+            <testcase name="And I select &quot;INTO City University, London (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.937"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="3.352"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="46.317"/>
+            <testcase name="And I should see right information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.0">
+              <error>java.lang.NullPointerException&#13;
+	at com.pages.NewOutcomeCreationPage.clickOnSaveBrandOutcomeButton(NewOutcomeCreationPage.java:97)&#13;
+	at com.pages.NewOutcomeCreationPage.assertion(NewOutcomeCreationPage.java:130)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_right_information(NewOutcomeCreationStepDef.java:145)&#13;
+	at ✽.And I should see right information(NewOutcomeCreation.feature:20)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester (Parent) |" time="0.002" incomplete="true">
+            <error>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 56841b3391098583b9c2be7da5b1f005
+*** Element info: {Using=id, value=username}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)&#13;
+	at org.openqa.selenium.By$ById.findElement(By.java:218)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)&#13;
+	at com.Utilities.GlobalHooks.salesforceHomepage(GlobalHooks.java:37)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_am_in_sales_force_homepage(NewOutcomeCreationStepDef.java:15)&#13;
+	at ✽.Given I am in sales force homepage(NewOutcomeCreation.feature:4)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.002">
+              <error>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 56841b3391098583b9c2be7da5b1f005
+*** Element info: {Using=id, value=username}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:416)&#13;
+	at org.openqa.selenium.By$ById.findElement(By.java:218)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)&#13;
+	at com.Utilities.GlobalHooks.salesforceHomepage(GlobalHooks.java:37)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_am_in_sales_force_homepage(NewOutcomeCreationStepDef.java:15)&#13;
+	at ✽.Given I am in sales force homepage(NewOutcomeCreation.feature:4)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I select &quot;INTO Manchester&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.011" ignored="true"/>
+            <testcase name="And I enter &quot;outcome2-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.003" ignored="true"/>
+            <testcase name="And I enter the &quot;Business&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.028" ignored="true"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.002" ignored="true"/>
+            <testcase name="And I select &quot;INTO Manchester (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.001" ignored="true"/>
+            <testcase name="And I should see right information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="1.134" ignored="true"/>
+          </testsuite>
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling (Parent) |" time="6.167" incomplete="true">
+            <error>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 764a89468c6b6d1fc981732e02056cc6&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:334)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:17)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="6.167"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0">
+              <error>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 764a89468c6b6d1fc981732e02056cc6&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:334)&#13;
+	at com.pages.NewOutcomeCreationPage.assertionForsalesforceHomepage(NewOutcomeCreationPage.java:17)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_salesforce_homepage(NewOutcomeCreationStepDef.java:21)&#13;
+	at ✽.When I should see salesforce homepage(NewOutcomeCreation.feature:5)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.017" ignored="true"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I select &quot;INTO University of Stirling&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I enter &quot;outcome3-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I enter the &quot;social&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.017" ignored="true"/>
+            <testcase name="And I select &quot;INTO University of Stirling (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.017" ignored="true"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.0" ignored="true"/>
+            <testcase name="And I should see right information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.6" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

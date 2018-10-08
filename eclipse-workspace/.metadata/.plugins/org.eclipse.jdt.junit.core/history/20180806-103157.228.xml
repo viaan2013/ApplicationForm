@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="30" started="30" failures="0" errors="4" ignored="6">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" time="108.697">
+    <testsuite name="Feature: Entry Requirements Removing in salesforce" time="108.697">
+      <testsuite name="Scenario Outline: Entry requirements Removing" time="108.697">
+        <testsuite name="Examples:" time="108.697">
+          <testsuite name="| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text()='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="57.896" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.pages.EntryRequirementsRemovingpage.clickOnDeleteButton(EntryRequirementsRemovingpage.java:92)&#13;
+	at com.StepDefination.EntryRequirementsRemovingStepDef.i_click_on_delete_button(EntryRequirementsRemovingStepDef.java:94)&#13;
+	at ✽.And I click on delete button(EntryRequirementsRemoving.feature:17)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in test-course-content homepage in contentful(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="4.21"/>
+            <testcase name="And I click and select outcome option in dropdown(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="0.109"/>
+            <testcase name="And I click on search text box(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="1.39"/>
+            <testcase name="And I select scheduled course option in outcome(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="0.649"/>
+            <testcase name="When I enter &quot;Maths&quot; in searchbox(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="1.595"/>
+            <testcase name="And I select &quot;aCI3A000000CahHWAS&quot; from search results and click on it(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="6.722"/>
+            <testcase name="And I select one of the &quot;//div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19']&quot; from the list and click(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="5.145"/>
+            <testcase name="And I select one of the &quot;//div[@class='ReferenceCard__title'][text()='Untitled']&quot;from the selected scheduled course(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="0.075"/>
+            <testcase name="And I  do the page scroll for salesforce ID of that course(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="5.672"/>
+            <testcase name="And I navigate to salesforce url(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="1.751"/>
+            <testcase name="And I search for scheduledcourse in salesforce with &quot;https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC&quot;(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="3.393"/>
+            <testcase name="And I take a screenshot for of that for future use(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="27.167"/>
+            <testcase name="And I click on delete button(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="0.017">
+              <error>java.lang.NullPointerException&#13;
+	at com.pages.EntryRequirementsRemovingpage.clickOnDeleteButton(EntryRequirementsRemovingpage.java:92)&#13;
+	at com.StepDefination.EntryRequirementsRemovingStepDef.i_click_on_delete_button(EntryRequirementsRemovingStepDef.java:94)&#13;
+	at ✽.And I click on delete button(EntryRequirementsRemoving.feature:17)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="Then I should see alert box with message(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="0.0" ignored="true"/>
+            <testcase name="And I select ok in the alert box(| Maths | aCI3A000000CahHWAS | //div[@class='ReferenceCard__title'][text()='A-level Engineering and Mathematics - September Start - 6 Terms - UEA - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='Untitled'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmekWAC |" time="0.9" ignored="true"/>
+          </testsuite>
+          <testsuite name="| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="35.28" incomplete="true">
+            <error>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: ad4adac05ff05b02f84597c111bd2a88&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:334)&#13;
+	at com.pages.EntryRequirementsRemovingpage.searchForScheduledCourseInSalesforce(EntryRequirementsRemovingpage.java:83)&#13;
+	at com.StepDefination.EntryRequirementsRemovingStepDef.i_search_for_scheduledcourse_in_salesforce_with(EntryRequirementsRemovingStepDef.java:81)&#13;
+	at ✽.And I search for scheduledcourse in salesforce with "https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC"(EntryRequirementsRemoving.feature:15)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in test-course-content homepage in contentful(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="4.207"/>
+            <testcase name="And I click and select outcome option in dropdown(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.103"/>
+            <testcase name="And I click on search text box(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="1.288"/>
+            <testcase name="And I select scheduled course option in outcome(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.519"/>
+            <testcase name="When I enter &quot;Science&quot; in searchbox(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="2.206"/>
+            <testcase name="And I select &quot;aCI3A000000CaexWAC&quot; from search results and click on it(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="6.212"/>
+            <testcase name="And I select one of the &quot;//div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19']&quot; from the list and click(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="6.779"/>
+            <testcase name="And I select one of the &quot;//div[@class='ReferenceCard__title'][text()='China : Academic : 3 Year Diploma']&quot;from the selected scheduled course(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.001"/>
+            <testcase name="And I  do the page scroll for salesforce ID of that course(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="6.08"/>
+            <testcase name="And I navigate to salesforce url(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="7.885"/>
+            <testcase name="And I search for scheduledcourse in salesforce with &quot;https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC&quot;(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.0">
+              <error>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'BTNISDL1PTPSF2', ip: '10.11.11.160', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_172'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\SRUTHI~1.KUN\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: ad4adac05ff05b02f84597c111bd2a88&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:657)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:334)&#13;
+	at com.pages.EntryRequirementsRemovingpage.searchForScheduledCourseInSalesforce(EntryRequirementsRemovingpage.java:83)&#13;
+	at com.StepDefination.EntryRequirementsRemovingStepDef.i_search_for_scheduledcourse_in_salesforce_with(EntryRequirementsRemovingStepDef.java:81)&#13;
+	at ✽.And I search for scheduledcourse in salesforce with "https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC"(EntryRequirementsRemoving.feature:15)&#13;
+&#13;
+</error>
+            </testcase>
+            <testcase name="And I take a screenshot for of that for future use(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.0" ignored="true"/>
+            <testcase name="And I click on delete button(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.0" ignored="true"/>
+            <testcase name="Then I should see alert box with message(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.0" ignored="true"/>
+            <testcase name="And I select ok in the alert box(| Science | aCI3A000000CaexWAC | //div[@class='ReferenceCard__title'][text()='International Graduate Diploma in Business and Humanities with Pre-sessional English - September Start - 4 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text" classname=")='China : Academic : 3 Year Diploma'] | https://intoglobal--iupsfuat.cs109.my.salesforce.com/aCJ3A000000GmbgWAC |" time="0.633" ignored="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

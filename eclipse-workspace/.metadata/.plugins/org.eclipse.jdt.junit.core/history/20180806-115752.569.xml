@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="54" started="46" failures="0" errors="4" ignored="0">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" incomplete="true">
+    <testsuite name="Feature: New Outcome Creation In Sales force" incomplete="true">
+      <testsuite name="Scenario Outline:" incomplete="true">
+        <testsuite name="Examples:" incomplete="true">
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London (Parent) |" time="43.946" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.pages.NewOutcomeCreationPage.clickOnSaveBrandOutcomeButton(NewOutcomeCreationPage.java:96)&#13;
+	at com.pages.NewOutcomeCreationPage.assertion(NewOutcomeCreationPage.java:137)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_rightbrandoutcome(NewOutcomeCreationStepDef.java:154)&#13;
+	at ✽.And I should see rightbrandoutcome(NewOutcomeCreation.feature:21)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="1.73"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="4.1"/>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="1.658"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="1.28"/>
+            <testcase name="And I select &quot;INTO City, University of London&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.135"/>
+            <testcase name="And I enter &quot;outcome1-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="3.035"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.079"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="2.195"/>
+            <testcase name="And I enter the &quot;Academic English&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.143"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="2.357"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="2.11"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="1.057"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.272"/>
+            <testcase name="And I select &quot;INTO City University, London (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.829"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="3.398"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.035"/>
+            <testcase name="And I should see newbrandoutcome creation(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="19.527"/>
+            <testcase name="And I should see rightbrandoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO City, University of London | outcome1-Sruthitest | Academic English | INTO City University, London " classname="Parent) |" time="0.006">
+              <error>java.lang.NullPointerException&#13;
+	at com.pages.NewOutcomeCreationPage.clickOnSaveBrandOutcomeButton(NewOutcomeCreationPage.java:96)&#13;
+	at com.pages.NewOutcomeCreationPage.assertion(NewOutcomeCreationPage.java:137)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_rightbrandoutcome(NewOutcomeCreationStepDef.java:154)&#13;
+	at ✽.And I should see rightbrandoutcome(NewOutcomeCreation.feature:21)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester (Parent) |" time="317.696" incomplete="true">
+            <error>java.lang.NullPointerException&#13;
+	at com.pages.NewOutcomeCreationPage.clickOnSaveBrandOutcomeButton(NewOutcomeCreationPage.java:96)&#13;
+	at com.pages.NewOutcomeCreationPage.assertion(NewOutcomeCreationPage.java:137)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_rightbrandoutcome(NewOutcomeCreationStepDef.java:154)&#13;
+	at ✽.And I should see rightbrandoutcome(NewOutcomeCreation.feature:21)&#13;
+&#13;
+</error>
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="1.899"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="2.181"/>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.851"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.464"/>
+            <testcase name="And I select &quot;INTO Manchester&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.149"/>
+            <testcase name="And I enter &quot;outcome2-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="2.369"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.115"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="2.428"/>
+            <testcase name="And I enter the &quot;Business&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.189"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="3.961"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="2.152"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="2.09"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.34"/>
+            <testcase name="And I select &quot;INTO Manchester (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.936"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="3.332"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.068"/>
+            <testcase name="And I should see newbrandoutcome creation(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="294.17"/>
+            <testcase name="And I should see rightbrandoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO Manchester | outcome2-Sruthitest | Business | INTO Manchester " classname="Parent) |" time="0.0">
+              <error>java.lang.NullPointerException&#13;
+	at com.pages.NewOutcomeCreationPage.clickOnSaveBrandOutcomeButton(NewOutcomeCreationPage.java:96)&#13;
+	at com.pages.NewOutcomeCreationPage.assertion(NewOutcomeCreationPage.java:137)&#13;
+	at com.StepDefination.NewOutcomeCreationStepDef.i_should_see_rightbrandoutcome(NewOutcomeCreationStepDef.java:154)&#13;
+	at ✽.And I should see rightbrandoutcome(NewOutcomeCreation.feature:21)&#13;
+&#13;
+</error>
+            </testcase>
+          </testsuite>
+          <testsuite name="| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling (Parent) |" incomplete="true">
+            <testcase name="Given I am in sales force homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="1.338"/>
+            <testcase name="When I should see salesforce homepage(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="2.556"/>
+            <testcase name="And I select outcomes field from the tabs(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.9"/>
+            <testcase name="And I click on new button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.524"/>
+            <testcase name="And I select &quot;INTO University of Stirling&quot; in the information(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.149"/>
+            <testcase name="And I enter &quot;outcome3-Sruthitest&quot;(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="3.012"/>
+            <testcase name="And I click on Save button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.105"/>
+            <testcase name="And I click on Add button in master courses(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="2.161"/>
+            <testcase name="And I enter the &quot;social&quot; name(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" time="0.121"/>
+            <testcase name="And I click on Find button in master course(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="And I select course of that particular university(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="And I click on add selected button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="And I click on New Brand Outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="And I select &quot;INTO University of Stirling (Parent)&quot; from parent record(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="And I click on Save brand outcome button(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="Then I should take a screenshot of Newoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="And I should see newbrandoutcome creation(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+            <testcase name="And I should see rightbrandoutcome(| sruthi.kundoor@intoglobal.com.iupsfuat | Into1234 | INTO University of Stirling | outcome3-Sruthitest | social | INTO University of Stirling " classname="Parent) |" incomplete="true"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

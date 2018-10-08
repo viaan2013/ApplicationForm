@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="CucucmberRunner" project="ScenariosToAutomate" tests="34" started="34" failures="0" errors="0" ignored="0">
+  <testsuite name="com.CucumberRunner.CucucmberRunner" time="163.34">
+    <testsuite name="Feature: Product Progression" time="163.34">
+      <testsuite name="Scenario Outline: Product progression option true to false" time="52.714">
+        <testsuite name="Examples:" time="52.714">
+          <testsuite name="| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc (Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="52.714">
+            <testcase name="Given I am in contentful home page(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="6.236"/>
+            <testcase name="And I select Outcome option in the dropdown(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="1.279"/>
+            <testcase name="And I select scheduledcourse in the outcome option(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="2.696"/>
+            <testcase name="When I enter &quot;science&quot; in outcome search area(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="4.241"/>
+            <testcase name="And I select &quot;aCI3A000000Caf0WAC&quot; from search results(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="1.575"/>
+            <testcase name="And I select &quot;//div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19']&quot; from list(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.012"/>
+            <testcase name="And I print URL with outcomeID and salesforceID(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="13.8"/>
+            <testcase name="And I click on &quot;//div[@class='ReferenceCard__title'][text()='BSc (Hons) Psychology and Biology']&quot; related to that scheduledcourse(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.041"/>
+            <testcase name="And I print the URL(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="5.379"/>
+            <testcase name="Then I navigate to salesforce(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="1.844"/>
+            <testcase name="And I search for &quot;aCD3A0000008lnbWAA&quot; in the salesforce url(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="5.303"/>
+            <testcase name="And I click on productprogression inactive option(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="9.217"/>
+            <testcase name="And I click on Save button in salesforce(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.141"/>
+            <testcase name="Then I should see product progression option is unticked(| science | aCI3A000000Caf0WAC | //div[@class='ReferenceCard__title'][text()='International Foundation in Biological and Biomedical Sciences - September Start - 3 Terms - NCL - 2018/19'] | //div[@class='ReferenceCard__title'][text()='BSc " classname="Hons) Psychology and Biology'] | aCD3A0000008lnbWAA |" time="0.95"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+      <testsuite name="Scenario Outline: Product progression option False to true" time="101.487">
+        <testsuite name="Examples:" time="101.487">
+          <testsuite name="| aCD3A0000008lnbWAA |" time="17.053">
+            <testcase name="Given I navigate to salesforce homepage" classname="| aCD3A0000008lnbWAA |" time="1.515"/>
+            <testcase name="When I am searching for &quot;aCD3A0000008lnbWAA&quot; which are having unticked Productprogression inactive option" classname="| aCD3A0000008lnbWAA |" time="5.254"/>
+            <testcase name="And I click on productprogression inactive option" classname="| aCD3A0000008lnbWAA |" time="9.168"/>
+            <testcase name="And I click on Save button in salesforce" classname="| aCD3A0000008lnbWAA |" time="0.153"/>
+            <testcase name="Then I should see product progression inactive option ticked" classname="| aCD3A0000008lnbWAA |" time="0.963"/>
+          </testsuite>
+          <testsuite name="| aCD3A0000009J9A |" time="18.722">
+            <testcase name="Given I navigate to salesforce homepage" classname="| aCD3A0000009J9A |" time="3.048"/>
+            <testcase name="When I am searching for &quot;aCD3A0000009J9A&quot; which are having unticked Productprogression inactive option" classname="| aCD3A0000009J9A |" time="5.308"/>
+            <testcase name="And I click on productprogression inactive option" classname="| aCD3A0000009J9A |" time="9.234"/>
+            <testcase name="And I click on Save button in salesforce" classname="| aCD3A0000009J9A |" time="0.148"/>
+            <testcase name="Then I should see product progression inactive option ticked" classname="| aCD3A0000009J9A |" time="0.984"/>
+          </testsuite>
+          <testsuite name="| aCD3A0000009J91 |" time="18.155">
+            <testcase name="Given I navigate to salesforce homepage" classname="| aCD3A0000009J91 |" time="2.604"/>
+            <testcase name="When I am searching for &quot;aCD3A0000009J91&quot; which are having unticked Productprogression inactive option" classname="| aCD3A0000009J91 |" time="5.251"/>
+            <testcase name="And I click on productprogression inactive option" classname="| aCD3A0000009J91 |" time="9.249"/>
+            <testcase name="And I click on Save button in salesforce" classname="| aCD3A0000009J91 |" time="0.164"/>
+            <testcase name="Then I should see product progression inactive option ticked" classname="| aCD3A0000009J91 |" time="0.887"/>
+          </testsuite>
+          <testsuite name="| aCD3A0000009J9F |" time="20.449">
+            <testcase name="Given I navigate to salesforce homepage" classname="| aCD3A0000009J9F |" time="4.822"/>
+            <testcase name="When I am searching for &quot;aCD3A0000009J9F&quot; which are having unticked Productprogression inactive option" classname="| aCD3A0000009J9F |" time="5.243"/>
+            <testcase name="And I click on productprogression inactive option" classname="| aCD3A0000009J9F |" time="9.251"/>
+            <testcase name="And I click on Save button in salesforce" classname="| aCD3A0000009J9F |" time="0.16"/>
+            <testcase name="Then I should see product progression inactive option ticked" classname="| aCD3A0000009J9F |" time="0.973"/>
+          </testsuite>
+        </testsuite>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

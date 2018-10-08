@@ -1,0 +1,25 @@
+[0710/092321.595:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0710/092321.596:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0710/092321.602:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0710/092321.602:ERROR:exception_snapshot_win.cc(88)] thread ID 25752 not found in process
+[0710/092321.602:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0710/093649.882:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0710/093649.884:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0710/093649.893:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0710/093649.893:ERROR:exception_snapshot_win.cc(88)] thread ID 22396 not found in process
+[0710/093649.893:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0712/160840.020:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0712/160840.023:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0712/160840.034:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0712/160840.034:ERROR:exception_snapshot_win.cc(88)] thread ID 20664 not found in process
+[0712/160840.034:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0723/102431.864:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0723/102431.867:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0723/102431.883:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0723/102431.883:ERROR:exception_snapshot_win.cc(88)] thread ID 54792 not found in process
+[0723/102431.883:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0723/103621.040:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0723/103621.042:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0723/103621.056:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0723/103621.059:ERROR:exception_snapshot_win.cc(88)] thread ID 27684 not found in process
+[0723/103621.059:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: An attempt was made to access an exiting process. (0xc000010a)
